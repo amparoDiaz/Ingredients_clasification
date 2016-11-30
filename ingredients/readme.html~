@@ -1,0 +1,8 @@
+para treinar a red execute a seguite linha
+	python train.py --dataset train/hotDog/
+
+para testar pode mudar o nome da imagen 
+
+python test_image.py  --image images/examp11.jpg 
+
+

@@ -1,0 +1,36 @@
+from keras.optimizers import SGD
+from convnetskeras.convnets import preprocess_image_batch, convnet
+from convnetskeras.imagenet_tool import synset_to_dfs_ids
+from keras.applications.vgg16 import VGG16
+from keras.preprocessing import image
+from keras.applications.vgg16 import preprocess_input
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+sgd = SGD(lr=0.1, decay=1e-6, momentum=0.9, nesterov=True) 
+model = VGG16(weights='imagenet', include_top=False)
+model.compile(optimizer=sgd, loss='mse')
+
+img_path = 'dog.jpg'
+img = image.load_img(img_path, target_size=(224, 224))
+x = image.img_to_array(img)
+x = np.expand_dims(x, axis=0)
+x = preprocess_input(x)
+
+
+
+
+out = model.predict(x)
+print out
+
+
+plt.imshow(out[0][0])
+
+plt.imsave("heatmap_dog.png",out[0:,1])
+
+
+
+
+
+

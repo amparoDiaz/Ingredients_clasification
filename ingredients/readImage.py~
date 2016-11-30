@@ -1,0 +1,16 @@
+import os
+
+
+
+
+
+images = []
+for root, dirnames, filenames in os.walk("/97"):
+    print filenames
+    for filename in filenames:
+            filepath = os.path.join(root, filename)
+            image = cv2.imread(filepath) 
+	    images.append(image_to_feature_vector(image))
+
+N=len(images)
+print N
