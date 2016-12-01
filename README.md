@@ -1,3 +1,11 @@
 # Ingredients_clasification
 
- <img src="ingedients/Screenshot from 2016-11-30 07-28-11.png" alt="ingedients/Screenshot from 2016-11-30 07-28-11.png" height="42" width="42"> 
+ para treinar a red execute a seguite linha
+	python train.py --dataset train/hotDog/
+ <img src="https://raw.githubusercontent.com/amparoDiaz/Ingredients_clasification/master/ingredients/Screenshot%20from%202016-11-30%2007-28-11.png
+" alt="Ver resultados" height="42" width="42">  <p>
+para testar pode mudar o nome da imagen 
+<p>
+python test_image.py  --image images/examp11.jpg 
+
+resultados
