@@ -9,5 +9,5 @@ para testar pode mudar o nome da imagen
 <p>
 python test_image.py  --image images/examp11.jpg 
 
- <img src="https://raw.githubusercontent.com/amparoDiaz/Ingredients_clasification/master/ingredients/Screenshot%20from%202016-11-30%2007-28-11.png" alt="Ver resultados" height="200" width="200">  
+ <img src="https://raw.githubusercontent.com/amparoDiaz/Ingredients_clasification/master/ingredients/Screenshot%20from%202016-11-30%2007-28-11.png" alt="Ver resultados" height="500" width="500">  
  <p>
