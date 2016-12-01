@@ -1,3 +1,3 @@
 # Ingredients_clasification
 
- <img src="ingedients/" alt="Smiley face" height="42" width="42"> 
+ <img src="ingedients/Screenshot from 2016-11-30 07-28-11.png" alt="ingedients/Screenshot from 2016-11-30 07-28-11.png" height="42" width="42"> 
